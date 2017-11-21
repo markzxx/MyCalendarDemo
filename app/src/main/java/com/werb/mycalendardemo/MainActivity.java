@@ -290,7 +290,7 @@ public class MainActivity extends AppCompatActivity implements RapidFloatingActi
         Calendar minDate = Calendar.getInstance();
         Calendar maxDate = Calendar.getInstance();
 
-        minDate.add(Calendar.MONTH, -10);
+        minDate.add(Calendar.MONTH, -2);
         minDate.set(Calendar.DAY_OF_MONTH, 1);
         maxDate.add(Calendar.YEAR, 1);
         //根据你传入的开始结束值，构建生成Calendar数据（各种Item，JavaBean）
